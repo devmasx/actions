@@ -11,7 +11,7 @@ Nodejs build and test
 
 jobs:
   build-and-test:
-    uses: devmasx/actions/.github/workflows/nodejs/build-test.yml@main
+    uses: devmasx/actions/.github/workflows/nodejs-build-test.yml@main
     with:
       node-version: 16
 ```
