@@ -32,4 +32,4 @@ jobs:
         if: always()
         with:
           access-token: ${{ secrets.GITHUB_TOKEN }}
-          check-name: Jest test with node-version ${{ matrix.version }}
+          check-name: Jest test
